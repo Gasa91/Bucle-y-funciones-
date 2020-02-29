@@ -55,5 +55,14 @@ foreach($arreglo as $clave=>$valor){
     echo("<br>");
 
 }
-
+//Arreglos multidimencionales en php(arreglo de arreglos)
+echo("<br>....................................");
+echo("<br>");
+$usuarios=array(
+    'usuario1'=>array('nombre'=>"Juan",'edad'=>30,'genero'=>"Masculino"),
+    'usuario2'=>array('nombre'=>"Matilde",'edad'=>25,'genero'=>"Femenino"),
+    'usuario3'=>array('nombre'=>"Simon",'edad'=>45,'genero'=>"Masculino"),
+    'usuario4'=>array('nombre'=>"Alenjandro",'edad'=>34,'genero'=>"Masculino"),
+    'usuario5'=>array('nombre'=>"María",'edad'=>23,'genero'=>"Femenino")
+);
 ?>
